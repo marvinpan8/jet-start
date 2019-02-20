@@ -17,7 +17,7 @@ module.exports = function(env) {
 	var config = {
 		mode: production ? "production" : "development",
 		entry: {
-			myapp: "./sources/myapp.js"
+			ansible: "./sources/ansible.js"
 		},
 		output: {
 			path: path.join(__dirname, "codebase"),

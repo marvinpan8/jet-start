@@ -1,0 +1,64 @@
+body{
+    background: #EFF1FB;
+}
+.touch_demo{
+    background: #EFF1FB;
+    position: relative;
+}
+.demo_qr_container {
+    position:absolute;
+    left:calc(50% - 550px); top:280px;
+    text-align: center;
+    width: 240px;
+}
+/* .demo_qr{
+    background:url(../common/qr-code-touch.png);
+    background-size: contain;
+    width:200px; height:200px;
+    margin: 0 auto;
+} */
+.demo_screen{
+    width:370px;
+    height:656px;
+    position:absolute;
+    top: 118px;
+    left:5px;
+    right: 0;
+    margin: 0 auto;
+    background: white;
+}
+/* .iphone_screen{
+    background: url(/sources/styles/iphone.png) no-repeat;
+    width:448px;
+    height:990px;
+    position:absolute;
+    top:10px;
+    left:0;
+    right: 0;
+    margin: 0 auto;
+} */
+.iphone_text{
+    font:16px/25px "Roboto", sans-serif;
+    letter-spacing: 0;
+    color: #666;
+    padding-top: 15px;
+}
+.iphone_text a {
+    color: #009688;
+}
+.iphone_text a:hover {
+    color: #00baa8;
+}
+@media screen and (max-width: 1300px) {
+    .demo_qr_container {
+        left: 70px;
+    }
+    .iphone_screen {
+        right: auto;
+        left: 340px;
+    }
+    .demo_screen {
+        right: auto;
+        left:382px;
+    }
+}
